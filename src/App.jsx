@@ -1,17 +1,26 @@
 import './App.css'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Home from './components/Home';
+import About from './components/About';
+import Testimonial from './components/Testimonial';
+import Team from './components/Team';
+import Menu from './components/Menu';
 
-import Body from "./components/Body"
 
-
-
+// Main App Component with Router
 function App() {
-
-
   return (
-    <>
-    <Body />
-    </>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        {/* <Route path="/testimonial" element={<Testimonialt />} />
+        <Route path="/team" element={<Teamt />} /> */}
+        <Route path="/menu" element={<Menu />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
