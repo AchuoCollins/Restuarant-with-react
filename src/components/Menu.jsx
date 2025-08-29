@@ -66,9 +66,9 @@ function Menu() {
           {menuCategories.map((category) => (
             <div key={category.id} className="bg-white rounded-2xl shadow-md p-8">
               <h2 className="text-3xl font-bold text-green-900 mb-8">{category.name}</h2>
-              <div className="grid md:grid-cols-2 gap-8">
+              <div className="grid md:grid-cols-2 gap-20">
                 {category.items.map((item) => (
-                  <div key={item.id} className="flex justify-between items-start border-b border-green-100 pb-6">
+                  <div key={item.id} className="flex justify-between items-start border rounded-4xl border-green-200 p-7">
                     <div>
                       <h3 className="font-semibold text-green-900 text-lg mb-2">{item.name}</h3>
                       <p className="text-gray-600 text-sm">{item.description}</p>

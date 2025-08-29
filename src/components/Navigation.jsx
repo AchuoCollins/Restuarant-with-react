@@ -10,8 +10,8 @@ export default function Navigation() {
       <div className="hidden md:flex space-x-8">
         <Link to="/" className="text-green-800 hover:text-green-600 font-medium">Home</Link>
         <Link to="/about" className="text-green-800 hover:text-green-600 font-medium">About us</Link>
-        <Link to="/#" className="text-green-800 hover:text-green-600 font-medium">Testimonial</Link>
-        <Link to="/#" className="text-green-800 hover:text-green-600 font-medium">Team</Link>
+        <Link to="/testimonial" className="text-green-800 hover:text-green-600 font-medium">Testimonial</Link>
+        <Link to="/team" className="text-green-800 hover:text-green-600 font-medium">Team</Link>
         <Link to="/menu" className="text-green-800 hover:text-green-600 font-medium">Menu</Link>
       </div>
       <div className="flex items-center space-x-4">

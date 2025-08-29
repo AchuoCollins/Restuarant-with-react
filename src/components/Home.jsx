@@ -20,7 +20,7 @@ export default function Home() {
             This is a type of restaurant which typically serves food and drinks, in addition to light refreshment our design is awesome
           </p>
 
-          <Link to="/menu" className="bg-green-700 text-white px-6 py-3 rounded-md hover:bg-green-600 transition-colors font-medium">
+          <Link to="/menu" className="bg-green-700 text-white px-6 py-3 rounded-md hover:bg-green-200 transition-colors font-medium">
             Explore More
           </Link>
 
@@ -30,8 +30,8 @@ export default function Home() {
             <div className="w-80 h-80 bg-green-200 rounded-full overflow-hidden shadow-lg flex items-center justify-center">
               <span className="text-green-800 text-center">Healthy Food Image</span>
             </div>
-            <div className="absolute -bottom-4 -right-4 bg-white rounded-lg shadow-md p-4 w-48">
-              <div className="flex items-center">
+            <div className="absolute -bottom-4 -right-4 bg-white rounded-lg shadow-md p-4 w-48 animate-bounce">
+              <div className="flex items-center ">
                 <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
